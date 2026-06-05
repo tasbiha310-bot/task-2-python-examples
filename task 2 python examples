@@ -1,0 +1,102 @@
+# =====================================
+# Example 1: Printing Name and Domain
+# =====================================
+print("Name: Tasbiha Shehzadi")
+print("Domain: Data Science and AI")
+
+# =====================================
+# Example 2: Variables
+# =====================================
+student_name = "Tasbiha"
+age = 19
+cgpa = 3.8
+
+print("\nVariables:")
+print(student_name)
+print(age)
+print(cgpa)
+
+# =====================================
+# Example 3: String Data Type
+# =====================================
+message = "Welcome to CoreTech Innovation"
+print("\nString Example:")
+print(message)
+
+# =====================================
+# Example 4: Integer Data Type
+# =====================================
+employees = 25
+print("\nInteger Example:")
+print(employees)
+
+# =====================================
+# Example 5: Float Data Type
+# =====================================
+project_budget = 15000.50
+print("\nFloat Example:")
+print(project_budget)
+
+# =====================================
+# Example 6: Boolean Data Type
+# =====================================
+project_completed = True
+print("\nBoolean Example:")
+print(project_completed)
+
+# =====================================
+# Example 7: List Data Type
+# =====================================
+services = [
+    "Web Development",
+    "Mobile App Development",
+    "Data Science",
+    "AI Solutions",
+    "Cloud Computing"
+]
+
+print("\nList Example:")
+print(services)
+
+# =====================================
+# Example 8: Tuple Data Type
+# =====================================
+office_location = ("Lahore", "Pakistan")
+print("\nTuple Example:")
+print(office_location)
+
+# =====================================
+# Example 9: Dictionary Data Type
+# =====================================
+client = {
+    "Client_ID": 101,
+    "Name": "ABC Company",
+    "Project": "Website Development",
+    "Status": "Active"
+}
+
+print("\nDictionary Example:")
+print(client)
+
+# =====================================
+# Example 10: Loop and Function
+# =====================================
+
+print("\nCoreTech Services using Loop:")
+for service in services:
+    print(service)
+
+# Function to calculate project cost after tax
+def calculate_total_cost(cost, tax_rate):
+    total = cost + (cost * tax_rate / 100)
+    return total
+
+project_cost = 50000
+tax = 10
+
+total_amount = calculate_total_cost(project_cost, tax)
+
+print("\nProject Cost Calculation:")
+print("Original Cost:", project_cost)
+print("Tax Rate:", tax, "%")
+print("Total Cost:", total_amount)
